@@ -20,6 +20,14 @@ public class BootstrapButton extends FrameLayout {
     private boolean roundedCorners = false;
 
     private enum BootstrapType {
+
+        //GolfStory
+        GS_DEFAULT("gs_default", R.drawable.gsbutton_default, R.drawable.gsbutton_default_rounded, R.color.white),
+        GS_WHITE("gs_white", R.drawable.gsbutton_white, R.drawable.gsbutton_white_rounded, R.color.bbutton_danger),
+        GS_BLUE("gs_blue,", R.drawable.gsbutton_blue, R.drawable.gsbutton_blue_rounded, R.color.bbutton_primary),
+        GS_SUCCESS("gs_success", R.drawable.gsbutton_success, R.drawable.gsbutton_success_rounded, R.color.white),
+        /////////////////////////////////////////
+
         DEFAULT("default", R.drawable.bbuton_default, R.drawable.bbuton_default_rounded, R.color.black),
         PRIMARY("primary", R.drawable.bbuton_primary, R.drawable.bbuton_primary_rounded, R.color.white),
         SUCCESS("success", R.drawable.bbuton_success, R.drawable.bbuton_success_rounded, R.color.white),

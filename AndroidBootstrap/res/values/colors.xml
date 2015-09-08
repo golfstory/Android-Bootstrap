@@ -62,4 +62,12 @@
     <color name="bthumbnail_font">#7e7e7e</color>
 
 
+    <color name="golfstory_default">#ffebebeb</color>
+    <color name="golfstory_default_pressed">#ffadadad</color>
+    <color name="golfstory_white">#ffffff</color>
+    <color name="golfstory_white_pressed">#ffebebeb</color>
+    <color name="golfstory_white_edge">#ffd9534f</color>
+    <color name="golfstory_success">#4378b6</color>
+
+
 </resources>
